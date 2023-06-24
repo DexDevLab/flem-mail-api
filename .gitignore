@@ -38,3 +38,4 @@ next-env.d.ts
 
 /storage
 /public/uploads/*
+/.env.production

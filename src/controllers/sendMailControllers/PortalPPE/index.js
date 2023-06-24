@@ -2,23 +2,13 @@ import { mailTransporter, prisma } from "services";
 import { getAnexos } from "utils";
 
 /**
- *
- * @param {*} appSource nome da aplicação de origem da solicitação
- * @param {*} data dados pertinentes ao email a ser enviado:
- *
- * contato - email do contato
- *
- * remetente - remetente do email
- *
- * assunto - assunto do email
- *
- * html - conteúdo (corpo) do email
- *
- * id - ID do objeto de referência do email
- *
- * anexosId - ID dos objetos dos anexos
- *
- * @returns {Promise} Promise contendo os dados dos emails enviados
+ * Handler de manipulação de dados de email e direcionamento.
+ * @method sendMailPortalPPE
+ * @memberof module:sendMailControllers
+ * @param {String} appSource o nome da aplicação. O nome da
+ * aplicação direciona a rota correta e estabelece o diretório
+ * de armazenamento de arquivos.
+ * @param {Object} data os dados do email
  */
 async function sendMailPortalPPE(appSource, data) {
   const mailsToCatalog = new Array().concat(

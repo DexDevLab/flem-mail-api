@@ -1,1 +1,1 @@
-export { sendMailPortalPPE } from "./PortalPPE";
+export { sendMailPortalPPE } from "./PortalPPE/index";

@@ -1,6 +1,13 @@
 import { createTransport } from "nodemailer";
 
-// INSTANCIA UM TRANSPORT DE EMAILS DO NODEMAILER
+/**
+ * Função que instancia o Transport, implementação
+ * necessária para estabelecer um pool com o servidor
+ * de email.
+ * @method mailTransporter
+ * @memberof module:services
+ * @returns {Function} Instância Transport do nodemailer.
+ */
 export const mailTransporter = createTransport({
   host: process.env.NEXT_MAILSERVICE_HOST,
   port: process.env.NEXT_MAILSERVICE_PORT,

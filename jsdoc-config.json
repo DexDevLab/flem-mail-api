@@ -33,7 +33,6 @@
           "id": "some-id"
         }
       ],
-
       "meta": [
         {
           "name": "author",
@@ -45,11 +44,11 @@
         },
         {
           "name": "description",
-          "content": "API que consome requisições das aplicações FLEM para manipulação e armazenamento de arquivos."
+          "content": "API que manipula as requisições e transferências de email das aplicações FLEM"
         }
       ],
       "search": {},
-      "create_style": "nav{background: yellow}",
+      "create_style": "",
       "add_style_path": [
         {
           "href": "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css",
@@ -63,14 +62,9 @@
           "src": "https://code.jquery.com/jquery-3.5.1.js",
           "integrity": "sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=",
           "crossorigin": "anonymous"
-        },
-        {
-          "src": "index.js"
         }
       ],
-
       "footer": "Made with ☕️ by <a href='https://github.com/frtechdev'>FR Technologies</a>",
-
       "overlay_scrollbar": {
         "options": {}
       },

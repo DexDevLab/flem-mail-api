@@ -1,1 +1,1 @@
-export { sendMail } from "./sendMailControllers";
+export { sendMailPortalPPE } from "./sendMailControllers";
