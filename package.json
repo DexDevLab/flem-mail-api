@@ -1,7 +1,7 @@
 {
   "name": "flem-mail-api",
   "description": "API que manipula as requisições e transferências de email das aplicações FLEM.",
-  "version": "v1.1.0-230624",
+  "version": "v1.1.1-230624",
   "license": "MIT",
   "private": true,
   "scripts": {

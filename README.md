@@ -192,6 +192,11 @@ Para mais informações, visite a [Documentação do Docker](https://docs.docker
 
 <br>
 
+### v1.1.1-230624
+
+- Criação de um script de Github Actions para Tag e Release automáticos das versões no branch `main`
+- Adição de um script de Github Actions para deploy automático de imagem Docker
+
 ### v1.1.0-230624
 
 - Criação de um script de Github Actions para Tag e Release automáticos das versões no branch `main`
